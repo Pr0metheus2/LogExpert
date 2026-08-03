@@ -459,15 +459,30 @@ internal class TabController : ITabController
     /// them. Panes of every dock state are enumerated, so floating windows are included.
     /// </summary>
     /// <returns>Read-only list of all LogWindows in the DockPanel</returns>
-    public IReadOnlyList<LogWindow> GetAllWindowsFromDockPanel ()
-    {
-        return !_initialized || _dockPanel == null
-            ? []
-            : _dockPanel.Panes
-                .SelectMany(pane => pane.DisplayingContents.OfType<LogWindow>())
-                .ToList()
-                .AsReadOnly();
-    }
+	public IReadOnlyList<LogWindow> GetAllWindowsFromDockPanel ()
+	{
+	  if (!_initialized || _dockPanel == null)
+	  {
+		  return [];
+	  }
+
+	  List<LogWindow> windows = [];
+
+	  foreach (DockPane pane in _dockPanel.Panes)
+	  {
+		  var displayingContents = pane.DisplayingContents;
+
+		  for (int index = 0; index < displayingContents.Count; index++)
+		  {
+			  if (displayingContents[index] is LogWindow logWindow)
+			  {
+				  windows.Add(logWindow);
+			  }
+		  }
+	  }
+
+      return windows.AsReadOnly();
+	}
 
     #endregion
 }
