@@ -29,7 +29,7 @@
     <PackageReference Include="NUnit" />
     <PackageReference Include="NUnit3TestAdapter" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" />
-	<!-- Required by TabControllerTests to create themed DockPanel document tabs. -->
+    <!-- Required by TabControllerTests to create themed DockPanel document tabs. -->
     <PackageReference Include="DockPanelSuite.ThemeVS2015" />
   </ItemGroup>
 
@@ -104,6 +104,12 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="TestData\comma.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestData\app.log">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestData\app.log.1">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Update="TestData\organizations-1000.csv">
