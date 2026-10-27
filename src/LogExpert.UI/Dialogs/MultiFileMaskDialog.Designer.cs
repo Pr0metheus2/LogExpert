@@ -111,7 +111,7 @@
         this.labelMaxFileAgeDaysHint.Size = new System.Drawing.Size(54, 20);
         this.labelMaxFileAgeDaysHint.TabIndex = 7;
         this.labelMaxFileAgeDaysHint.Text = "0 = Off";
-        //
+        // 
         // fileNamePatternTextBox
         // 
         this.fileNamePatternTextBox.Location = new System.Drawing.Point(149, 25);

@@ -89,6 +89,7 @@ public class MultiFileAgeSettingsTests
         {
             Assert.That(maxDayGap.Value, Is.EqualTo(3));
             Assert.That(maxFileAgeDays.Value, Is.EqualTo(14));
+            Assert.That(maxFileAgeDays.Maximum, Is.EqualTo(MultiFileOptions.MAX_FILE_AGE_DAYS));
         });
 
         maxDayGap.Value = 7;

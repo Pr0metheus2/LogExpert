@@ -10,9 +10,6 @@ public class MultiFileOptions
     /// </summary>
     public const int MAX_FILE_AGE_DAYS = 3650;
 
-    /// <summary>
-    /// Gets or sets how many consecutive days without a file may be skipped when walking a date pattern.
-    /// </summary>
     public int MaxDayTry { get; set; } = 3;
 
     /// <summary>

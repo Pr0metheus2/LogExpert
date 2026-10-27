@@ -142,9 +142,7 @@ public class RolloverFilenameHandler
             return CandidateResult.Include;
         }
 
-        var nowUtc = _timeProvider.GetUtcNow().UtcDateTime;
-        var maximumAge = TimeSpan.FromDays(maxFileAgeDays);
-        var cutoffUtc = nowUtc - DateTime.MinValue < maximumAge ? DateTime.MinValue : nowUtc - maximumAge;
+        var cutoffUtc = _timeProvider.GetUtcNow().UtcDateTime - TimeSpan.FromDays(maxFileAgeDays);
         return lastWriteTimeUtc >= cutoffUtc ? CandidateResult.Include : CandidateResult.TooOld;
     }
 
