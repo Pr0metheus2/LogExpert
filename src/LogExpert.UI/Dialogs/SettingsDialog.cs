@@ -648,8 +648,7 @@ internal partial class SettingsDialog : Form
 
         textBoxMultifilePattern.Text = Preferences.MultiFileOptions.FormatPattern;
         upDownMultifileDays.Value = Preferences.MultiFileOptions.MaxDayTry;
-        upDownMultifileMaxFileAgeDays.Value = Math.Clamp(Preferences.MultiFileOptions.MaxFileAgeDays, 0,
-            MultiFileOptions.MAX_FILE_AGE_DAYS);
+        upDownMultifileMaxFileAgeDays.Value = Preferences.MultiFileOptions.ClampedMaxFileAgeDays;
     }
 
     private void GetToolListBoxData ()

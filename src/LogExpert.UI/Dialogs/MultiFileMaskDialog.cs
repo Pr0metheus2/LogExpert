@@ -71,7 +71,7 @@ internal partial class MultiFileMaskDialog : Form
     {
         fileNamePatternTextBox.Text = FileNamePattern;
         upDownMaxDayGap.Value = MaxDayGap;
-        upDownMaxFileAgeDays.Value = Math.Clamp(MaxFileAgeDays, 0, MultiFileOptions.MAX_FILE_AGE_DAYS);
+        upDownMaxFileAgeDays.Value = MultiFileOptions.ClampMaxFileAgeDays(MaxFileAgeDays);
     }
 
     #endregion

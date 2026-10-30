@@ -136,7 +136,7 @@ public class RolloverFilenameHandler
             return CandidateResult.Missing;
         }
 
-        var maxFileAgeDays = Math.Clamp(_options.MaxFileAgeDays, 0, MultiFileOptions.MAX_FILE_AGE_DAYS);
+        var maxFileAgeDays = _options.ClampedMaxFileAgeDays;
         if (maxFileAgeDays == 0 || info.LastWriteTimeUtc is not { } lastWriteTimeUtc)
         {
             return CandidateResult.Include;
