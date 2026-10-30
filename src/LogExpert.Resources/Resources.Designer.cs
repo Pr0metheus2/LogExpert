@@ -19,7 +19,7 @@ namespace LogExpert {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "18.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     public class Resources {
@@ -416,7 +416,7 @@ namespace LogExpert {
                 return ResourceManager.GetString("Columnizer_SnapshotUnavailable", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Timestamp selector.
         /// </summary>
@@ -1082,6 +1082,123 @@ namespace LogExpert {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Create a new highlight item (opens the editor dialog).
+        /// </summary>
+        public static string HighlightDialog_UI_Button_ToolTip_btnAdd {
+            get {
+                return ResourceManager.GetString("HighlightDialog_UI_Button_ToolTip_btnAdd", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Copy the selected highlight into a new one (opens the editor dialog).
+        /// </summary>
+        public static string HighlightDialog_UI_Button_ToolTip_btnCopy {
+            get {
+                return ResourceManager.GetString("HighlightDialog_UI_Button_ToolTip_btnCopy", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Copy the current highlight group into a new one.
+        /// </summary>
+        public static string HighlightDialog_UI_Button_ToolTip_btnCopyGroup {
+            get {
+                return ResourceManager.GetString("HighlightDialog_UI_Button_ToolTip_btnCopyGroup", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Delete the current highlight.
+        /// </summary>
+        public static string HighlightDialog_UI_Button_ToolTip_btnDelete {
+            get {
+                return ResourceManager.GetString("HighlightDialog_UI_Button_ToolTip_btnDelete", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Delete the current highlight group.
+        /// </summary>
+        public static string HighlightDialog_UI_Button_ToolTip_btnDeleteGroup {
+            get {
+                return ResourceManager.GetString("HighlightDialog_UI_Button_ToolTip_btnDeleteGroup", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Edit the selected highlight in the editor dialog.
+        /// </summary>
+        public static string HighlightDialog_UI_Button_ToolTip_btnEdit {
+            get {
+                return ResourceManager.GetString("HighlightDialog_UI_Button_ToolTip_btnEdit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Export highlight groups.
+        /// </summary>
+        public static string HighlightDialog_UI_Button_ToolTip_btnExportGroup {
+            get {
+                return ResourceManager.GetString("HighlightDialog_UI_Button_ToolTip_btnExportGroup", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Import highlight groups.
+        /// </summary>
+        public static string HighlightDialog_UI_Button_ToolTip_btnImportGroup {
+            get {
+                return ResourceManager.GetString("HighlightDialog_UI_Button_ToolTip_btnImportGroup", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Move the current highlight one position down.
+        /// </summary>
+        public static string HighlightDialog_UI_Button_ToolTip_btnMoveDown {
+            get {
+                return ResourceManager.GetString("HighlightDialog_UI_Button_ToolTip_btnMoveDown", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Move the current highlight group one position down.
+        /// </summary>
+        public static string HighlightDialog_UI_Button_ToolTip_btnMoveGroupDown {
+            get {
+                return ResourceManager.GetString("HighlightDialog_UI_Button_ToolTip_btnMoveGroupDown", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Move the current highlight group one position up.
+        /// </summary>
+        public static string HighlightDialog_UI_Button_ToolTip_btnMoveGroupUp {
+            get {
+                return ResourceManager.GetString("HighlightDialog_UI_Button_ToolTip_btnMoveGroupUp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Move the current highlight one position up.
+        /// </summary>
+        public static string HighlightDialog_UI_Button_ToolTip_btnMoveUp {
+            get {
+                return ResourceManager.GetString("HighlightDialog_UI_Button_ToolTip_btnMoveUp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Create a new empty highlight group.
+        /// </summary>
+        public static string HighlightDialog_UI_Button_ToolTip_btnNewGroup {
+            get {
+                return ResourceManager.GetString("HighlightDialog_UI_Button_ToolTip_btnNewGroup", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Change selection highlight color....
         /// </summary>
         public static string HighlightDialog_UI_ChangeSelectionColor {
@@ -1186,6 +1303,15 @@ namespace LogExpert {
         public static string HighlightDialog_UI_CheckBox_WordMatch {
             get {
                 return ResourceManager.GetString("HighlightDialog_UI_CheckBox_WordMatch", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Choose a group to create different highlight settings. Type in a name to change the name of a group..
+        /// </summary>
+        public static string HighlightDialog_UI_ComboBox_ToolTip_comboBoxGroups {
+            get {
+                return ResourceManager.GetString("HighlightDialog_UI_ComboBox_ToolTip_comboBoxGroups", resourceCulture);
             }
         }
         
@@ -4208,7 +4334,7 @@ namespace LogExpert {
                 return ResourceManager.GetString("MarkerBar_Bookmarks", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Clear search.
         /// </summary>
@@ -4217,7 +4343,7 @@ namespace LogExpert {
                 return ResourceManager.GetString("MarkerBar_ClearSearch", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Discovering markers….
         /// </summary>
@@ -4226,7 +4352,7 @@ namespace LogExpert {
                 return ResourceManager.GetString("MarkerBar_Discovering", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Filter hits.
         /// </summary>
@@ -4235,7 +4361,7 @@ namespace LogExpert {
                 return ResourceManager.GetString("MarkerBar_FilterHits", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Highlights.
         /// </summary>
@@ -4244,7 +4370,7 @@ namespace LogExpert {
                 return ResourceManager.GetString("MarkerBar_Highlights", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Could not read log line {0} while discovering markers..
         /// </summary>
@@ -4253,7 +4379,7 @@ namespace LogExpert {
                 return ResourceManager.GetString("MarkerBar_LineUnavailable", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Marker discovery failed: {0}.
         /// </summary>
@@ -4262,7 +4388,7 @@ namespace LogExpert {
                 return ResourceManager.GetString("MarkerBar_ScanFailed", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Search hits.
         /// </summary>
@@ -4271,7 +4397,7 @@ namespace LogExpert {
                 return ResourceManager.GetString("MarkerBar_SearchHits", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Marker bar.
         /// </summary>
@@ -4280,7 +4406,7 @@ namespace LogExpert {
                 return ResourceManager.GetString("MarkerBar_Title", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to {0}: lines {1}–{2}, {3} matching lines.
         /// </summary>
@@ -4289,7 +4415,7 @@ namespace LogExpert {
                 return ResourceManager.GetString("MarkerBar_ToolTip", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Close existing tabs.
         /// </summary>
@@ -4442,7 +4568,7 @@ namespace LogExpert {
                 return ResourceManager.GetString("MultiFileMaskDialog_UI_Label_MaxDayGap", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Max file age (days):.
         /// </summary>
@@ -4451,7 +4577,7 @@ namespace LogExpert {
                 return ResourceManager.GetString("MultiFileMaskDialog_UI_Label_MaxFileAgeDays", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to 0 = Off.
         /// </summary>
@@ -4474,16 +4600,24 @@ namespace LogExpert {
         ///   Looks up a localized string similar to Pattern syntax:
         ///
         ///* = any characters (wildcard)
-        ///$D(&amp;lt;date&amp;gt;) = Date pattern
+        ///$D(&lt;date&gt;) = Date pattern
         ///$I = File index number
         ///$J = File index number, hidden when zero
-        ///$J(&amp;lt;prefix&amp;gt;) = Like $J, but adding &amp;lt;prefix&amp;gt; when non-zero
+        ///$J(&lt;prefix&gt;) = Like $J, but adding &lt;prefix&gt; when non-zero
         ///
-        ///&amp;lt;date&amp;gt;:
+        ///Examples:
+        ///*$J(.) → app.log, app.log.1, app.log.2
+        ///*$J(.).log → app.log, app.1.log, app.2.log
+        ///
+        ///&lt;date&gt;:
         ///DD = day
         ///MM = month
         ///YY[YY] = year
-        ///all other chars will be used as given.
+        ///all other chars will be used as given
+        ///
+        ///MultiFile limits:
+        ///Max day gap = For $D patterns, consecutive days without a log file to skip before giving up
+        ///Max file age [rest of string was truncated]&quot;;.
         /// </summary>
         public static string MultiFileMaskDialog_UI_Label_SyntaxHelp {
             get {
@@ -4582,7 +4716,7 @@ namespace LogExpert {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &amp;Value for "{0}":.
+        ///   Looks up a localized string similar to &amp;Value for &quot;{0}&quot;:.
         /// </summary>
         public static string ParamRequesterDialog_UI_Label_ValueForParameterNamed {
             get {
@@ -5660,7 +5794,7 @@ namespace LogExpert {
                 return ResourceManager.GetString("SettingsDialog_UI_CheckBox_checkBoxShowBookmarkMarkers", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Show Error Message?.
         /// </summary>
@@ -5678,7 +5812,7 @@ namespace LogExpert {
                 return ResourceManager.GetString("SettingsDialog_UI_CheckBox_checkBoxShowFilterMarkers", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Show highlight markers.
         /// </summary>
@@ -5687,7 +5821,7 @@ namespace LogExpert {
                 return ResourceManager.GetString("SettingsDialog_UI_CheckBox_checkBoxShowHighlightMarkers", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Show marker bar.
         /// </summary>
@@ -5696,7 +5830,7 @@ namespace LogExpert {
                 return ResourceManager.GetString("SettingsDialog_UI_CheckBox_checkBoxShowMarkerBar", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Show search markers.
         /// </summary>
@@ -5705,7 +5839,7 @@ namespace LogExpert {
                 return ResourceManager.GetString("SettingsDialog_UI_CheckBox_checkBoxShowSearchMarkers", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Allow only 1 Instance.
         /// </summary>
@@ -6218,7 +6352,16 @@ namespace LogExpert {
                 return ResourceManager.GetString("SettingsDialog_UI_Label_labelMaxDayGap", resourceCulture);
             }
         }
-
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Maximum Display Length (restart required).
+        /// </summary>
+        public static string SettingsDialog_UI_Label_labelMaxDisplayLength {
+            get {
+                return ResourceManager.GetString("SettingsDialog_UI_Label_labelMaxDisplayLength", resourceCulture);
+            }
+        }
+        
         /// <summary>
         ///   Looks up a localized string similar to Max file age (days):.
         /// </summary>
@@ -6227,31 +6370,13 @@ namespace LogExpert {
                 return ResourceManager.GetString("SettingsDialog_UI_Label_labelMaxFileAgeDays", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to 0 = Off.
         /// </summary>
         public static string SettingsDialog_UI_Label_labelMaxFileAgeDaysHint {
             get {
                 return ResourceManager.GetString("SettingsDialog_UI_Label_labelMaxFileAgeDaysHint", resourceCulture);
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized string similar to For $D patterns: how many consecutive days without a log file to skip before giving up..
-        /// </summary>
-        public static string SettingsDialog_UI_NumericUpDown_ToolTip_upDownMultifileDays {
-            get {
-                return ResourceManager.GetString("SettingsDialog_UI_NumericUpDown_ToolTip_upDownMultifileDays", resourceCulture);
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Maximum age of rollover files to load, in days. Set to 0 to disable the age limit..
-        /// </summary>
-        public static string SettingsDialog_UI_NumericUpDown_ToolTip_upDownMultifileMaxFileAgeDays {
-            get {
-                return ResourceManager.GetString("SettingsDialog_UI_NumericUpDown_ToolTip_upDownMultifileMaxFileAgeDays", resourceCulture);
             }
         }
         
@@ -6261,15 +6386,6 @@ namespace LogExpert {
         public static string SettingsDialog_UI_Label_labelMaximumFilterEntries {
             get {
                 return ResourceManager.GetString("SettingsDialog_UI_Label_labelMaximumFilterEntries", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Maximum Display Length (restart required).
-        /// </summary>
-        public static string SettingsDialog_UI_Label_labelMaxDisplayLength {
-            get {
-                return ResourceManager.GetString("SettingsDialog_UI_Label_labelMaxDisplayLength", resourceCulture);
             }
         }
         
@@ -6379,6 +6495,24 @@ namespace LogExpert {
         public static string SettingsDialog_UI_Label_labelWorkingDir {
             get {
                 return ResourceManager.GetString("SettingsDialog_UI_Label_labelWorkingDir", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to For $D patterns: how many consecutive days without a log file to skip before giving up..
+        /// </summary>
+        public static string SettingsDialog_UI_NumericUpDown_ToolTip_upDownMultifileDays {
+            get {
+                return ResourceManager.GetString("SettingsDialog_UI_NumericUpDown_ToolTip_upDownMultifileDays", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Maximum age of rollover files to load, in days. Set to 0 to disable the age limit..
+        /// </summary>
+        public static string SettingsDialog_UI_NumericUpDown_ToolTip_upDownMultifileMaxFileAgeDays {
+            get {
+                return ResourceManager.GetString("SettingsDialog_UI_NumericUpDown_ToolTip_upDownMultifileMaxFileAgeDays", resourceCulture);
             }
         }
         
@@ -6669,7 +6803,7 @@ namespace LogExpert {
                 return ResourceManager.GetString("SettingsDialog_UI_TabPage_tabPageMarkerBar", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Memory/CPU.
         /// </summary>
@@ -6862,132 +6996,6 @@ namespace LogExpert {
         public static string ToolArgsDialog_UI_Title {
             get {
                 return ResourceManager.GetString("ToolArgsDialog_UI_Title", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Create a new highlight item (opens the editor dialog).
-        /// </summary>
-        public static string HighlightDialog_UI_Button_ToolTip_btnAdd {
-            get {
-                return ResourceManager.GetString("HighlightDialog_UI_Button_ToolTip_btnAdd", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Copy the selected highlight into a new one (opens the editor dialog).
-        /// </summary>
-        public static string HighlightDialog_UI_Button_ToolTip_btnCopy {
-            get {
-                return ResourceManager.GetString("HighlightDialog_UI_Button_ToolTip_btnCopy", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Edit the selected highlight in the editor dialog.
-        /// </summary>
-        public static string HighlightDialog_UI_Button_ToolTip_btnEdit {
-            get {
-                return ResourceManager.GetString("HighlightDialog_UI_Button_ToolTip_btnEdit", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Delete the current highlight.
-        /// </summary>
-        public static string HighlightDialog_UI_Button_ToolTip_btnDelete {
-            get {
-                return ResourceManager.GetString("HighlightDialog_UI_Button_ToolTip_btnDelete", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Move the current highlight one position up.
-        /// </summary>
-        public static string HighlightDialog_UI_Button_ToolTip_btnMoveUp {
-            get {
-                return ResourceManager.GetString("HighlightDialog_UI_Button_ToolTip_btnMoveUp", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Move the current highlight one position down.
-        /// </summary>
-        public static string HighlightDialog_UI_Button_ToolTip_btnMoveDown {
-            get {
-                return ResourceManager.GetString("HighlightDialog_UI_Button_ToolTip_btnMoveDown", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Export highlight groups.
-        /// </summary>
-        public static string HighlightDialog_UI_Button_ToolTip_btnExportGroup {
-            get {
-                return ResourceManager.GetString("HighlightDialog_UI_Button_ToolTip_btnExportGroup", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Import highlight groups.
-        /// </summary>
-        public static string HighlightDialog_UI_Button_ToolTip_btnImportGroup {
-            get {
-                return ResourceManager.GetString("HighlightDialog_UI_Button_ToolTip_btnImportGroup", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Move the current highlight group one position down.
-        /// </summary>
-        public static string HighlightDialog_UI_Button_ToolTip_btnMoveGroupDown {
-            get {
-                return ResourceManager.GetString("HighlightDialog_UI_Button_ToolTip_btnMoveGroupDown", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Move the current highlight group one position up.
-        /// </summary>
-        public static string HighlightDialog_UI_Button_ToolTip_btnMoveGroupUp {
-            get {
-                return ResourceManager.GetString("HighlightDialog_UI_Button_ToolTip_btnMoveGroupUp", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Copy the current highlight group into a new one.
-        /// </summary>
-        public static string HighlightDialog_UI_Button_ToolTip_btnCopyGroup {
-            get {
-                return ResourceManager.GetString("HighlightDialog_UI_Button_ToolTip_btnCopyGroup", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Delete the current highlight group.
-        /// </summary>
-        public static string HighlightDialog_UI_Button_ToolTip_btnDeleteGroup {
-            get {
-                return ResourceManager.GetString("HighlightDialog_UI_Button_ToolTip_btnDeleteGroup", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Create a new empty highlight group.
-        /// </summary>
-        public static string HighlightDialog_UI_Button_ToolTip_btnNewGroup {
-            get {
-                return ResourceManager.GetString("HighlightDialog_UI_Button_ToolTip_btnNewGroup", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Choose a group to create different highlight settings. Type in a name to change the name of a group..
-        /// </summary>
-        public static string HighlightDialog_UI_ComboBox_ToolTip_comboBoxGroups {
-            get {
-                return ResourceManager.GetString("HighlightDialog_UI_ComboBox_ToolTip_comboBoxGroups", resourceCulture);
             }
         }
     }
