@@ -1571,7 +1571,7 @@ partial class SettingsDialog
         labelMaxFileAgeDays.Margin = new Padding(4, 0, 4, 0);
         labelMaxFileAgeDays.Name = "labelMaxFileAgeDays";
         labelMaxFileAgeDays.Size = new Size(102, 15);
-        labelMaxFileAgeDays.TabIndex = 6;
+        labelMaxFileAgeDays.TabIndex = 4;
         labelMaxFileAgeDays.Text = "Max file age (days):";
         // 
         // labelMaxFileAgeDaysHint
@@ -1581,7 +1581,7 @@ partial class SettingsDialog
         labelMaxFileAgeDaysHint.Margin = new Padding(4, 0, 4, 0);
         labelMaxFileAgeDaysHint.Name = "labelMaxFileAgeDaysHint";
         labelMaxFileAgeDaysHint.Size = new Size(43, 15);
-        labelMaxFileAgeDaysHint.TabIndex = 7;
+        labelMaxFileAgeDaysHint.TabIndex = 6;
         labelMaxFileAgeDaysHint.Text = "0 = Off";
         // 
         // labelPattern
@@ -1613,7 +1613,7 @@ partial class SettingsDialog
         upDownMultifileMaxFileAgeDays.Name = "upDownMultifileMaxFileAgeDays";
         helpProvider.SetShowHelp(upDownMultifileMaxFileAgeDays, false);
         upDownMultifileMaxFileAgeDays.Size = new Size(92, 23);
-        upDownMultifileMaxFileAgeDays.TabIndex = 2;
+        upDownMultifileMaxFileAgeDays.TabIndex = 5;
         // 
         // textBoxMultifilePattern
         // 

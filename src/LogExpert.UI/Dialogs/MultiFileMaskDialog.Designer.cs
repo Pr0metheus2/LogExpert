@@ -101,7 +101,7 @@
         0});
         this.upDownMaxFileAgeDays.Name = "upDownMaxFileAgeDays";
         this.upDownMaxFileAgeDays.Size = new System.Drawing.Size(49, 26);
-        this.upDownMaxFileAgeDays.TabIndex = 4;
+        this.upDownMaxFileAgeDays.TabIndex = 7;
         // 
         // labelMaxFileAgeDaysHint
         // 
@@ -109,7 +109,7 @@
         this.labelMaxFileAgeDaysHint.Location = new System.Drawing.Point(225, 87);
         this.labelMaxFileAgeDaysHint.Name = "labelMaxFileAgeDaysHint";
         this.labelMaxFileAgeDaysHint.Size = new System.Drawing.Size(54, 20);
-        this.labelMaxFileAgeDaysHint.TabIndex = 7;
+        this.labelMaxFileAgeDaysHint.TabIndex = 8;
         this.labelMaxFileAgeDaysHint.Text = "0 = Off";
         // 
         // fileNamePatternTextBox
@@ -117,7 +117,7 @@
         this.fileNamePatternTextBox.Location = new System.Drawing.Point(149, 25);
         this.fileNamePatternTextBox.Name = "fileNamePatternTextBox";
         this.fileNamePatternTextBox.Size = new System.Drawing.Size(247, 26);
-        this.fileNamePatternTextBox.TabIndex = 2;
+        this.fileNamePatternTextBox.TabIndex = 4;
         // 
         // labelMaxDayGap
         // 
@@ -151,7 +151,7 @@
         this.Settings.Location = new System.Drawing.Point(15, 39);
         this.Settings.Name = "Settings";
         this.Settings.Size = new System.Drawing.Size(402, 128);
-        this.Settings.TabIndex = 6;
+        this.Settings.TabIndex = 9;
         this.Settings.TabStop = false;
         // 
         // syntaxHelpLabel
@@ -159,7 +159,7 @@
         this.syntaxHelpLabel.Location = new System.Drawing.Point(15, 170);
         this.syntaxHelpLabel.Name = "syntaxHelpLabel";
         this.syntaxHelpLabel.Size = new System.Drawing.Size(402, 310);
-        this.syntaxHelpLabel.TabIndex = 7;
+        this.syntaxHelpLabel.TabIndex = 10;
         this.syntaxHelpLabel.Text = "Syntax Help Label";
         // 
         // buttonOk
@@ -169,7 +169,7 @@
         this.buttonOk.Location = new System.Drawing.Point(261, 493);
         this.buttonOk.Name = "buttonOk";
         this.buttonOk.Size = new System.Drawing.Size(75, 23);
-        this.buttonOk.TabIndex = 8;
+        this.buttonOk.TabIndex = 11;
         this.buttonOk.Text = "OK";
         this.buttonOk.UseVisualStyleBackColor = true;
         this.buttonOk.Click += new System.EventHandler(this.OnButtonOKClick);
@@ -181,7 +181,7 @@
         this.buttonCancel.Location = new System.Drawing.Point(342, 493);
         this.buttonCancel.Name = "buttonCancel";
         this.buttonCancel.Size = new System.Drawing.Size(75, 23);
-        this.buttonCancel.TabIndex = 9;
+        this.buttonCancel.TabIndex = 12;
         this.buttonCancel.Text = "Cancel";
         this.buttonCancel.UseVisualStyleBackColor = true;
         // 
