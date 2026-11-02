@@ -321,7 +321,7 @@ public class SftpLogFileInfo : ILogFileInfo
         }
         catch (Exception e) when ((catchConnectionExceptions && e is SshException or ArgumentNullException) ||
                                    e is SftpPathNotFoundException ||
-                                    e is SftpPermissionDeniedException)
+                                   e is SftpPermissionDeniedException)
         {
             _logger.LogError(e.Message);
             _lastWriteTimeUtc = null;
