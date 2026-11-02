@@ -2510,6 +2510,15 @@ namespace LogExpert {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Clear recently used.
+        /// </summary>
+        public static string LogTabWindow_UI_ToolStripMenuItem_clearFileHistoryToolStripMenuItem {
+            get {
+                return ResourceManager.GetString("LogTabWindow_UI_ToolStripMenuItem_clearFileHistoryToolStripMenuItem", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Close all tabs.
         /// </summary>
         public static string LogTabWindow_UI_ToolStripMenuItem_closeAllTabsToolStripMenuItem {
